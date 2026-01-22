@@ -1,0 +1,15 @@
+# Machine Learning Training Projects
+
+## 1. Rock vs Metal Detection (Logistic Regression)
+
+- The sonar data has a relatively linear relationship between features and classes
+- Logistic Regression shows  probability estimates for predictions and easy to understand which features affect most (sklearn.linear_model - LogisticRegression)
+---
+
+## 2. Diabetes Prediction (Support Vector Machine)
+
+- SVM is  used when clear separation is important, to find  optimal decision boundary by maximizing the margin between classes (sklearn - svm)
+
+The diabetes dataset has features with very different scales 
+Solution is Standardization (sklearn.preprocessing - StandardScaler)
+
