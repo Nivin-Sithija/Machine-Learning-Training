@@ -21,5 +21,5 @@ Solution is Standardization (sklearn.preprocessing - StandardScaler)
 - Used GridSearchCV for hyperparametertuning
 - How to use a Pipeline with ColumnTransformer to impute and scale  (sklearn.compose - ColumnTransformer, sklearn.pipeline - Pipeline)
 
-Tried RandomForestClassifier and also ensembled with XGB but didnt achieve higher score 
+Tried RandomForestClassifier and also ensembled with XGB but didnt achieve higher score  <br>
 Finally used Catboost Classifier- it handles categorical data without remembering to avoid overfit of XGB which achieved more accuracy
