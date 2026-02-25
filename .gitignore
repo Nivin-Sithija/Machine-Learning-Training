@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# CatBoost output
+catboost_info/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files
+playground-series-s6e2/*.csv
+!playground-series-s6e2/train.csv
+
+# Other
+.DS_Store
