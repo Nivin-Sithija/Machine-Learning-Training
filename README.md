@@ -20,5 +20,6 @@ Solution is Standardization (sklearn.preprocessing - StandardScaler)
 - XGBoost used to  capture non linear paterns and also when dataset has both numerical features (age, blood pressure) and categorical features (chest pain type, gender)
 - Used GridSearchCV for hyperparametertuning
 - How to use a Pipeline with ColumnTransformer to impute and scale  (sklearn.compose - ColumnTransformer, sklearn.pipeline - Pipeline)
-- CatBoost efficiently handles categorical data out-of-the-box without requiring manual encoding steps (catboost - CatBoostClassifier)
-- Model blending techniques were used to combine predictions from the models for better robustness and accuracy
+
+Tried RandomForestClassifier and also ensembled with XGB but didnt achieve higher score 
+Finally used Catboost Classifier- it handles categorical data without remembering to avoid overfit of XGB which achieved more accuracy
