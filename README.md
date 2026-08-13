@@ -45,8 +45,6 @@ Finally used Catboost Classifier- it handles categorical data without rememberin
 
 ## 6. [Spambase Preprocessing Benchmark](Spambase-Preprocessing-Benchmark/) (feature selection, Optuna, instance-hardness cleaning)
 
-- IEEE-format paper: dataset quality, not model capacity, is the dominant bottleneck on UCI
-  Spambase. A 7-stage preprocessing pipeline takes XGBoost from 95.77% to a cleaned
-  super-stacking ensemble at 97.79% accuracy (AUC 0.9987).
+- IEEE-format paper: dataset quality, not model capacity, is the dominant bottleneck on UCI 
 - 13 notebooks documenting the full investigation, including the SMOTE experiment that didn't
   survive contact with cleaner data.
