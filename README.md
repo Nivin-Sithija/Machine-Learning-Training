@@ -23,3 +23,30 @@ Solution is Standardization (sklearn.preprocessing - StandardScaler)
 
 Tried RandomForestClassifier and also ensembled with XGB but didnt achieve higher score  <br>
 Finally used Catboost Classifier- it handles categorical data without remembering to avoid overfit of XGB which achieved more accuracy
+
+---
+
+## 4. [Clustering Urban Mobility Patterns](Clustering-urban-mobility/) (K-Means, Agglomerative, DBSCAN)
+
+- Unsupervised partitioning of 723 days of UCI bike-sharing data into 5 usage regimes, compared
+  across coverage, compactness, stability and interpretability.
+- Independent validation: the partition reproduces calendar variables (working day, holiday) no
+  algorithm ever saw.
+
+---
+
+## 5. [Time Series Analysis of Clinic Attendances](Time-Series-Clinic-Attendance/) (STL, ACF, stationarity testing)
+
+- STL decomposition (robust vs non-robust), periodogram-based seasonality detection, robust
+  remainder z-score anomaly flagging, and ADF/KPSS stationarity testing across two differencing
+  routes.
+
+---
+
+## 6. [Spambase Preprocessing Benchmark](Spambase-Preprocessing-Benchmark/) (feature selection, Optuna, instance-hardness cleaning)
+
+- IEEE-format paper: dataset quality, not model capacity, is the dominant bottleneck on UCI
+  Spambase. A 7-stage preprocessing pipeline takes XGBoost from 95.77% to a cleaned
+  super-stacking ensemble at 97.79% accuracy (AUC 0.9987).
+- 13 notebooks documenting the full investigation, including the SMOTE experiment that didn't
+  survive contact with cleaner data.

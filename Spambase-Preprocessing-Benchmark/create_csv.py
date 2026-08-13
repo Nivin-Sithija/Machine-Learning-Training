@@ -17,14 +17,14 @@ cols = [
     'capital_run_length_total','spam'
 ]
 
-with open('/Users/sithijaseneviratne/Documents/uni work/ml_paper/spambase.data', 'r') as f:
+with open('spambase.data', 'r') as f:
     data = f.read()
 
-with open('/Users/sithijaseneviratne/Documents/uni work/ml_paper/Spam.csv', 'w') as f:
+with open('Spam.csv', 'w') as f:
     f.write(','.join(cols) + '\n' + data)
 
 import pandas as pd
-df = pd.read_csv('/Users/sithijaseneviratne/Documents/uni work/ml_paper/Spam.csv')
+df = pd.read_csv('Spam.csv')
 print('Shape:', df.shape)
 print('Columns:', list(df.columns))
 print('spam value counts:', df['spam'].value_counts().to_dict())

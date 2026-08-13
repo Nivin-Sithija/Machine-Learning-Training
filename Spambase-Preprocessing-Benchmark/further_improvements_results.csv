@@ -1,7 +1,0 @@
-Model,Accuracy,F1,AUC,MCC
-Super-Stack (XGB+LGBM+CAT+RF+ET),0.9584,0.9475,0.9854,0.9132
-HistGradientBoosting Optuna,0.9561,0.9449,0.9847,0.9083
-LightGBM Optuna,0.9549,0.9433,0.9863,0.9058
-CatBoost Optuna,0.9549,0.9435,0.9859,0.9059
-XGB Optuna (paper best),0.9501,0.9375,0.9857,0.8960
-ExtraTrees Optuna,0.9501,0.9373,0.9847,0.8959

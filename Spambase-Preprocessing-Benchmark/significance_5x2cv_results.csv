@@ -1,5 +1,0 @@
-Model A,Model B,t-stat,p-value,Significant (α=0.05),Mean diff (err_A - err_B)
-XGB_Optuna_Eng64,RF_Baseline,-1.6064,0.1691,No,-0.00313
-XGB_Optuna_Eng64,XGB_Default_Orig,-1.4711,0.2012,No,-0.00156
-XGB_Optuna_Eng64,Stacking_Orig,-0.0858,0.9349,No,0.00096
-RF_Baseline,XGB_Default_Orig,0.4081,0.7001,No,0.00156
